@@ -20,7 +20,6 @@ const Index = () => {
           <Search />
           <List />
         </ScrollView>
-        <BottomNav />
       </View>
     </SafeAreaView>
   );

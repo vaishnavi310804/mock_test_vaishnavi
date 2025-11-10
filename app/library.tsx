@@ -8,6 +8,8 @@ import {
   TouchableOpacity,
 } from "react-native";
 import { Ionicons } from "@expo/vector-icons";
+import Navbar from "@/components/Navbar";
+import FontAwesome5 from '@expo/vector-icons/FontAwesome5';
 
 const Secondscreen = () => {
   return (
@@ -16,6 +18,7 @@ const Secondscreen = () => {
       contentContainerStyle={styles.scrollContent}
       showsVerticalScrollIndicator={false}
     >
+        <Navbar />
       <View style={styles.header}>
         <Text style={styles.title}>Library</Text>
         <Text style={styles.subtitle}>Doctor’s approved audio episodes</Text>
@@ -49,7 +52,7 @@ const Secondscreen = () => {
 
       <View style={styles.card}>
         <View style={[styles.iconBox, { backgroundColor: "#E8F9F0" }]}>
-          <Ionicons size={28} color="#22B07D" />
+          <FontAwesome5 name="lungs" size={28} color="#22B07D" />
         </View>
         <View style={styles.textContainer}>
           <Text style={styles.cardTitle}>Body Systems</Text>

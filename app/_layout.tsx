@@ -33,7 +33,7 @@ export default function RootLayout() {
       <Tabs.Screen
         name="playlist"
         options={{
-          title: "Playlists",
+          title: "Playlist",
           tabBarIcon: ({ color, size }) => (
             <Ionicons name="albums-outline" size={size} color={color} />
           ),
