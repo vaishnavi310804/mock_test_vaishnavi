@@ -51,57 +51,6 @@ const Secondscreen = () => {
         </TouchableOpacity>
       </View>
 
-      {/* <View style={styles.card}>
-        <View style={[styles.iconBox, { backgroundColor: "#E8F9F0" }]}>
-          <FontAwesome5 name="lungs" size={28} color="#22B07D" />
-        </View>
-        <View style={styles.textContainer}>
-          <Text style={styles.cardTitle}>Body Systems</Text>
-          <View style={styles.cardMeta}>
-            <Text style={styles.metaText}>12 Episodes</Text>
-            <Text style={styles.dot}>•</Text>
-            <Text style={styles.metaText}>Updated 3 Jun</Text>
-          </View>
-          <Text style={styles.cardSub}>How your heart works</Text>
-          <Text style={styles.cardSub}>Breathing and the lungs</Text>
-          <Text style={styles.moreText}>+ 10 more</Text>
-        </View>
-      </View>
-
-      <View style={styles.card}>
-        <View style={[styles.iconBox, { backgroundColor: "#FFF7E6" }]}>
-          <Ionicons name="medkit-outline" size={28} color="#F59E0B" />
-        </View>
-        <View style={styles.textContainer}>
-          <Text style={styles.cardTitle}>Medical Conditions</Text>
-          <View style={styles.cardMeta}>
-            <Text style={styles.metaText}>27 Episodes</Text>
-            <Text style={styles.dot}>•</Text>
-            <Text style={styles.metaText}>Updated 1 Jun</Text>
-          </View>
-          <Text style={styles.cardSub}>Managing high blood pressure</Text>
-          <Text style={styles.cardSub}>Understanding depression</Text>
-          <Text style={styles.moreText}>+ 25 more</Text>
-        </View>
-      </View>
-
-      <View style={styles.card}>
-        <View style={[styles.iconBox, { backgroundColor: "#F0EBFF" }]}>
-          <Ionicons name="checkmark-done-outline" size={28} color="#7B61FF" />
-        </View>
-        <View style={styles.textContainer}>
-          <Text style={styles.cardTitle}>Diagnostics</Text>
-          <View style={styles.cardMeta}>
-            <Text style={styles.metaText}>12 Episodes</Text>
-            <Text style={styles.dot}>•</Text>
-            <Text style={styles.metaText}>Updated 29 May</Text>
-          </View>
-          <Text style={styles.cardSub}>Understanding your ECG report</Text>
-          <Text style={styles.cardSub}>What an MRI can tell you</Text>
-          <Text style={styles.moreText}>+ 10 more</Text>
-        </View>
-      </View> */}
-
       <Card/>
     </ScrollView>
   );
